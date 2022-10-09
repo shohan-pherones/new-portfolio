@@ -1,0 +1,39 @@
+.hero {
+  grid-template-columns: 2fr 1fr;
+  gap: 10rem;
+  display: grid;
+}
+
+.hero--left {
+  flex-direction: column;
+  gap: 3rem;
+  display: flex;
+}
+
+.hero--left h1 {
+  font-size: 10rem;
+}
+
+.bio {
+  width: 90%;
+}
+
+.btn {
+  text-transform: uppercase;
+  color: var(--color-light);
+  background: linear-gradient(-45deg, transparent 5%, var(--color-dark) 5%);
+  align-self: flex-start;
+  margin: 2rem 0;
+  padding: 1rem 3rem;
+}
+
+.hero--right {
+  overflow: hidden;
+}
+
+.hero--right img {
+  width: 100%;
+  display: block;
+}
+
+/*# sourceMappingURL=index.f0d09482.css.map */

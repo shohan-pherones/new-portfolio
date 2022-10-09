@@ -1,0 +1,149 @@
+.section--title {
+  margin-bottom: 10rem;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10rem;
+}
+
+.about--left {
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "d e f"
+    "g h i";
+  overflow: hidden;
+}
+
+.about--left .img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about--left .img img {
+  width: 100%;
+  display: block;
+}
+
+.one {
+  grid-area: a;
+  animation: leftDisplacement 4s infinite;
+}
+
+.two {
+  grid-area: b;
+  animation: midDisplacement 4s infinite 1s;
+}
+
+.three {
+  grid-area: c;
+  animation: rightDisplacement 4s infinite 2s;
+}
+
+.four {
+  grid-area: d;
+  animation: leftDisplacement 4s infinite 3s;
+}
+
+.five {
+  grid-area: e;
+  animation: midDisplacement 4s infinite 4s;
+}
+
+.six {
+  grid-area: f;
+  animation: rightDisplacement 4s infinite 5s;
+}
+
+.seven {
+  grid-area: g;
+  animation: leftDisplacement 4s infinite 6s;
+}
+
+.eight {
+  grid-area: h;
+  animation: midDisplacement 4s infinite 7s;
+}
+
+.nine {
+  grid-area: i;
+  animation: rightDisplacement 4s infinite 8s;
+}
+
+@keyframes leftDisplacement {
+  0% {
+    transform: translate(0%, 0%);
+  }
+
+  25% {
+    transform: translate(0%, 100%);
+  }
+
+  50% {
+    transform: translate(100%, 100%);
+  }
+
+  75% {
+    transform: translate(100%, 0%);
+  }
+
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+@keyframes midDisplacement {
+  0% {
+    transform: translate(0%, 0%);
+  }
+
+  25% {
+    transform: translate(0%, 200%);
+  }
+
+  50% {
+    transform: translate(100%, 200%);
+  }
+
+  75% {
+    transform: translate(100%, 0%);
+  }
+
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+@keyframes rightDisplacement {
+  0% {
+    transform: translate(0%, 0%);
+  }
+
+  25% {
+    transform: translate(0%, 100%);
+  }
+
+  50% {
+    transform: translate(-100%, 100%);
+  }
+
+  75% {
+    transform: translate(-100%, 0%);
+  }
+
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+.about--right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.about--right p {
+  text-align: justify;
+}

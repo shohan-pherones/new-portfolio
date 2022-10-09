@@ -1,0 +1,150 @@
+.section--title {
+  margin-bottom: 10rem;
+}
+
+.about {
+  grid-template-columns: 1fr 2fr;
+  gap: 10rem;
+  display: grid;
+}
+
+.about--left {
+  grid-template-areas: "a b c"
+                       "d e f"
+                       "g h i";
+  display: grid;
+  overflow: hidden;
+}
+
+.about--left .img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about--left .img img {
+  width: 100%;
+  display: block;
+}
+
+.one {
+  grid-area: a;
+  animation: 4s infinite leftDisplacement;
+}
+
+.two {
+  grid-area: b;
+  animation: 4s 1s infinite midDisplacement;
+}
+
+.three {
+  grid-area: c;
+  animation: 4s 2s infinite rightDisplacement;
+}
+
+.four {
+  grid-area: d;
+  animation: 4s 3s infinite leftDisplacement;
+}
+
+.five {
+  grid-area: e;
+  animation: 4s 4s infinite midDisplacement;
+}
+
+.six {
+  grid-area: f;
+  animation: 4s 5s infinite rightDisplacement;
+}
+
+.seven {
+  grid-area: g;
+  animation: 4s 6s infinite leftDisplacement;
+}
+
+.eight {
+  grid-area: h;
+  animation: 4s 7s infinite midDisplacement;
+}
+
+.nine {
+  grid-area: i;
+  animation: 4s 8s infinite rightDisplacement;
+}
+
+@keyframes leftDisplacement {
+  0% {
+    transform: translate(0%);
+  }
+
+  25% {
+    transform: translate(0%, 100%);
+  }
+
+  50% {
+    transform: translate(100%, 100%);
+  }
+
+  75% {
+    transform: translate(100%);
+  }
+
+  100% {
+    transform: translate(0%);
+  }
+}
+
+@keyframes midDisplacement {
+  0% {
+    transform: translate(0%);
+  }
+
+  25% {
+    transform: translate(0%, 200%);
+  }
+
+  50% {
+    transform: translate(100%, 200%);
+  }
+
+  75% {
+    transform: translate(100%);
+  }
+
+  100% {
+    transform: translate(0%);
+  }
+}
+
+@keyframes rightDisplacement {
+  0% {
+    transform: translate(0%);
+  }
+
+  25% {
+    transform: translate(0%, 100%);
+  }
+
+  50% {
+    transform: translate(-100%, 100%);
+  }
+
+  75% {
+    transform: translate(-100%);
+  }
+
+  100% {
+    transform: translate(0%);
+  }
+}
+
+.about--right {
+  flex-direction: column;
+  gap: 3rem;
+  display: flex;
+}
+
+.about--right p {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=index.359a6193.css.map */
