@@ -5,7 +5,7 @@
 }
 
 .project {
-  background-color: var(--color-blue);
+  background-color: var(--color-black-alt);
   border-radius: 10px;
   flex-direction: column;
   gap: 3rem;
@@ -27,7 +27,7 @@
 .project--texts {
   flex-direction: column;
   gap: 3rem;
-  padding: 0 2rem;
+  padding: 0 2rem 2rem;
   display: flex;
   overflow: hidden;
 }
@@ -55,7 +55,6 @@
 }
 
 .project--links .btn {
-  margin-top: 0;
   font-size: 1.7rem;
 }
 

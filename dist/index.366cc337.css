@@ -23,16 +23,22 @@ label {
 }
 
 input, textarea {
-  border: 1px solid var(--color-cyan);
+  background-color: var(--color-black-alt);
   color: var(--color-cyan);
-  background-color: #0000;
+  transition: var(--transition);
+  border: 1px solid #0000;
   padding: 1rem 2rem;
   font-family: inherit;
   font-size: 2rem;
 }
 
+input:focus, textarea:focus {
+  border-color: var(--color-cyan);
+  background-color: #0000;
+}
+
 input::placeholder, textarea::placeholder {
-  opacity: .5;
+  opacity: .75;
 }
 
 textarea {
