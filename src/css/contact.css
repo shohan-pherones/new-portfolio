@@ -1,0 +1,39 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.input--group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  font-size: 2rem;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 1px solid var(--color-dark);
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 0.5;
+}
+
+textarea {
+  resize: none;
+}
