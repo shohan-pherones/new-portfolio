@@ -5,13 +5,12 @@
 }
 
 .project {
-  background-color: var(--color-light);
   display: flex;
   flex-direction: column;
   gap: 3rem;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  background-color: var(--color-blue);
 }
 
 .project--img {

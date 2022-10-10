@@ -1,8 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap";
 :root {
-  --color-primary: #fbae4e;
-  --color-light: #fcfaf1;
-  --color-dark: #1e2227;
+  --color-blue: #4000ea;
+  --color-pink: #f33ba5;
+  --color-cyan: #53dbf1;
+  --color-black: #000;
 }
 
 *, :before, :after {
@@ -25,13 +26,13 @@
 
 ::-webkit-scrollbar-thumb {
   height: 10%;
-  background-color: var(--color-dark);
+  background-color: var(--color-pink);
   border-radius: 10px;
 }
 
 ::selection {
-  background-color: var(--color-primary);
-  color: var(--color-dark);
+  background-color: var(--color-pink);
+  color: var(--color-black);
 }
 
 html {
@@ -41,8 +42,8 @@ html {
 
 body {
   letter-spacing: 1px;
-  background-color: var(--color-light);
-  color: var(--color-dark);
+  background-color: var(--color-black);
+  color: var(--color-cyan);
   font-family: Space Grotesk, sans-serif;
   font-size: 2.5rem;
   font-weight: 400;
@@ -58,21 +59,31 @@ body {
 
 .btn {
   text-transform: uppercase;
-  color: var(--color-light);
-  background: linear-gradient(-45deg, transparent 5%, var(--color-dark) 5%);
+  color: var(--color-black);
+  background: linear-gradient(-45deg, transparent 5%, var(--color-cyan) 5%);
   align-self: flex-start;
   margin: 2rem 0;
   padding: 1rem 3rem;
 }
 
+.blue--bg {
+  background-color: var(--color-blue);
+  color: var(--color-black);
+}
+
 .section--title {
   text-transform: uppercase;
+  color: var(--color-pink);
   margin-bottom: 5rem;
 }
 
 footer {
   text-align: center;
   font-size: 2rem;
+}
+
+footer p {
+  color: var(--color-cyan);
 }
 
 /*# sourceMappingURL=index.34df27b5.css.map */

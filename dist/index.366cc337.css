@@ -23,7 +23,8 @@ label {
 }
 
 input, textarea {
-  border: 1px solid var(--color-dark);
+  border: 1px solid var(--color-cyan);
+  color: var(--color-cyan);
   background-color: #0000;
   padding: 1rem 2rem;
   font-family: inherit;
