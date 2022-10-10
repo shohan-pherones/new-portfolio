@@ -1,0 +1,65 @@
+.projects {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+  display: grid;
+}
+
+.project {
+  background-color: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 3rem;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+}
+
+.project--img {
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+}
+
+.project--img img {
+  width: 100%;
+  display: block;
+}
+
+.project--texts {
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0 2rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.project--title {
+  height: 6.5rem;
+  font-size: 2.5rem;
+}
+
+.project--details {
+  height: 19.5rem;
+  text-align: justify;
+  opacity: .75;
+  padding-right: 2rem;
+  font-size: 1.7rem;
+  overflow-y: scroll;
+}
+
+.project--tools {
+  height: 5.2rem;
+  font-size: 2rem;
+}
+
+.project--links {
+  justify-content: space-between;
+  display: flex;
+}
+
+.project--links .btn {
+  margin-top: 0;
+  font-size: 1.7rem;
+}
+
+/*# sourceMappingURL=index.b90e7673.css.map */
