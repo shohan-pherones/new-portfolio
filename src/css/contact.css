@@ -18,6 +18,8 @@
 
 label {
   font-size: 2rem;
+  cursor: pointer;
+  text-transform: capitalize;
 }
 
 input,

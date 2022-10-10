@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --color-light: #fafafa;
-  --color-dark: #1e1e1e;
+  --color-primary: #fbae4e;
+  --color-light: #e1ddd8;
+  --color-dark: #1e2227;
 }
 
 *,
@@ -32,8 +33,8 @@
 }
 
 ::selection {
-  background-color: var(--color-dark);
-  color: var(--color-light);
+  background-color: var(--color-primary);
+  color: var(--color-dark);
 }
 
 html {
@@ -43,11 +44,11 @@ html {
 }
 
 body {
-  font-family: "Marcellus", serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 2.5rem;
   font-weight: 400;
   letter-spacing: 1px;
-  line-height: 1.3;
+  line-height: 1.5;
   background-color: var(--color-light);
   color: var(--color-dark);
   overflow-x: hidden;
@@ -70,6 +71,7 @@ body {
 
 .section--title {
   margin-bottom: 5rem;
+  text-transform: uppercase;
 }
 
 footer {

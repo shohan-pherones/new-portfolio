@@ -11,7 +11,10 @@
 }
 
 .hero--left h1 {
-  font-size: 10rem;
+  text-transform: uppercase;
+  font-size: 12rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .bio {

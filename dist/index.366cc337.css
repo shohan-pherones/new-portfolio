@@ -17,6 +17,8 @@
 }
 
 label {
+  cursor: pointer;
+  text-transform: capitalize;
   font-size: 2rem;
 }
 

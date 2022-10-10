@@ -5,7 +5,7 @@
 }
 
 .project {
-  background-color: #fff;
+  background-color: var(--color-light);
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -44,7 +44,12 @@
   font-size: 1.7rem;
   padding-right: 2rem;
   text-align: justify;
-  opacity: 0.75;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.project--details:hover {
+  opacity: 1;
 }
 
 .project--tools {
