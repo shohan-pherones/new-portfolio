@@ -34,26 +34,19 @@
 }
 
 .project--title {
-  height: 6.5rem;
+  height: 7rem;
   font-size: 2.5rem;
 }
 
 .project--details {
-  height: 19.5rem;
+  height: 15rem;
   text-align: justify;
-  opacity: .5;
-  padding-right: 2rem;
   font-size: 1.7rem;
-  transition: all .5s;
-  overflow-y: scroll;
-}
-
-.project--details:hover {
-  opacity: 1;
+  overflow: hidden;
 }
 
 .project--tools {
-  height: 5.2rem;
+  height: 6rem;
   font-size: 2rem;
 }
 

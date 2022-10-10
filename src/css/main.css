@@ -2,7 +2,7 @@
 
 :root {
   --color-primary: #fbae4e;
-  --color-light: #e1ddd8;
+  --color-light: #fcfaf1;
   --color-dark: #1e2227;
 }
 
@@ -39,7 +39,6 @@
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
